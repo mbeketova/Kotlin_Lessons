@@ -7,6 +7,7 @@ fun main(args: Array<String>){
     thirdTask()
     fourthTask()
     fifthTask()
+    sixthTask()
 }
 
 fun firstTask() {
@@ -66,3 +67,23 @@ fun fifthTask() {
     val isInAlphabet = 'c' in alphabet
     println(isInAlphabet)
 }
+
+fun sixthTask() {
+// Напишите программу, которая запрашивает у пользователя два числа в переменные “a” и “b”.
+// Проверьте больше ли "a" чем "b" и получите результат в виде переменой типа boolean.
+    println("Введите первое число и нажмите Enter:")
+    var firstText: String? = readLine()
+    val fistString = firstText.toString()
+    val firstInt = fistString.toInt()
+    //Здесь не добавлена проверка на является ли введенное значение числом,
+    // но в рамках текущего задания этого достаточно
+
+    println("Введите второе число и нажмите Enter:")
+    var secondText: String? = readLine()
+    val secondString = secondText.toString()
+    val secondInt = secondString.toInt()
+
+    val isFirstBiggest = firstInt > secondInt
+    println(isFirstBiggest)
+}
+
