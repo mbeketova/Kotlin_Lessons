@@ -1,13 +1,13 @@
 import com.sun.jdi.connect.Connector
 
 fun main(args: Array<String>){
-    println("Hello Kotlin")
-    firstTask()
-    secondTask()
-    thirdTask()
-    fourthTask()
-    fifthTask()
-    sixthTask()
+//    println("Hello Kotlin")
+//    firstTask()
+//    secondTask()
+//    thirdTask()
+//    fourthTask()
+//    fifthTask()
+//    sixthTask()
 }
 
 fun firstTask() {
