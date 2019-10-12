@@ -1,5 +1,6 @@
 fun main() {
     //Модуль 2: "Конструкции"
-    SeventhTask().checkKnowledgeKotlin()
+    //SeventhTask().checkKnowledgeKotlin()
+    EightTask().calculateIncome()
 }
 

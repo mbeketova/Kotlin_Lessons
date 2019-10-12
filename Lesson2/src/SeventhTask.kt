@@ -37,7 +37,7 @@ class SeventhTask {
         }
     }
 
-    fun readToInt(): Int {
+    private fun readToInt(): Int {
         println("Введите номер правильного ответа и нажмите Enter")
         var text: String? = readLine()
         val textResult: String = text.toString()
@@ -50,7 +50,7 @@ class SeventhTask {
         }
     }
 
-    fun firstQuestion(): Int {
+    private fun firstQuestion(): Int {
         println("Где правильно создана переменная?")
         println("1. var x: Float = 2.56f")
         println("2. var x: 2.56")
@@ -60,7 +60,7 @@ class SeventhTask {
         return readToInt() //==1
     }
 
-    fun secondQuestion(): Int {
+    private fun secondQuestion(): Int {
         println("Каким будет тип переменной: var x = 10/2.5?")
         println("1. Целое")
         println("2. Int")
@@ -70,7 +70,7 @@ class SeventhTask {
         return  readToInt() //== 3
     }
 
-    fun thirdQuestion(): Int {
+    private fun thirdQuestion(): Int {
         println("Что произойдет в результате выполнения следующей программы: \n val text = \"Any text\" \n val a = text.toBoolean() \n println(a)")
         println("1. Ничего не произойдет")
         println("2. Программа не запустится")
@@ -80,7 +80,7 @@ class SeventhTask {
         return readToInt() // == 5
     }
 
-    fun fourthQuestion(): Int {
+    private fun fourthQuestion(): Int {
         println("В какой из строк закралась ошибка?")
         println("1. val string = \"String\" ")
         println("2. val string: String = 'String'")
@@ -90,7 +90,7 @@ class SeventhTask {
         return readToInt() //==2
     }
 
-    fun fifthQuestion(): Int {
+    private fun fifthQuestion(): Int {
         println("С помощью какого оператора можно проверить тип переменной?")
         println("1. to")
         println("2. when")
